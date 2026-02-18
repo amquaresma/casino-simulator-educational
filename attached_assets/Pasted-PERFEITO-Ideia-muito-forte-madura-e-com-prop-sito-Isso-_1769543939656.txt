@@ -1,0 +1,219 @@
+PERFEITO. Ideia **muito forte**, madura e com propósito.
+Isso aqui dá **projeto de portfólio sério**, não é “sitezinho”.
+
+Vamos **buildar como dev de verdade**, começando pela **ideia bem definida** (isso evita bagunça depois).
+
+---
+
+## 🎯 CONCEITO DO SITE
+
+**Nome provisório do projeto**
+
+> **Behind the Odds**
+> *Entenda por que a casa sempre ganha*
+
+(Depois a gente ajusta, mas já é um nome com cara de produto.)
+
+---
+
+## 🧠 OBJETIVO EDUCACIONAL
+
+O site vai:
+
+* **Desmistificar cassinos online**
+* Mostrar **como os algoritmos funcionam**
+* Provar, na prática, que:
+
+  > ganhos iniciais ≠ lucro no longo prazo
+
+Tudo isso com:
+
+* Simulações reais
+* Feedback visual
+* Linguagem acessível
+
+---
+
+## 🧱 ESTRUTURA DO SITE (VISÃO GERAL)
+
+### 🏠 Página inicial (`index.html`)
+
+* Headline forte
+* Explicação simples
+* CTA: *“Simule um cassino agora”*
+
+---
+
+### 🧮 Simuladores de cassino (backend Python)
+
+Cada simulador explica **o algoritmo por trás**.
+
+#### 🎰 1. Slot Machine (começa por esse)
+
+* Probabilidade real
+* RTP (Return to Player)
+* Resultado visual (ganho/perda)
+
+**O que o usuário aprende:**
+
+> Mesmo com RTP alto, o jogador perde no longo prazo.
+
+---
+
+#### 🎲 2. Roleta
+
+* Probabilidades reais
+* Vantagem da casa
+* Comparação expectativa × realidade
+
+---
+
+#### 🃏 3. Crash / Apostas rápidas
+
+* Multiplicadores
+* Algoritmo de queda
+* Psicologia do “quase ganhei”
+
+---
+
+### 🧠 Questionário interativo
+
+* Perguntas de múltipla escolha
+* Backend analisa respostas
+* Resultado final:
+
+  * Perfil de risco
+  * Explicação educativa
+
+---
+
+### 📚 Conteúdo educativo
+
+* Como funciona RNG
+* O que é RTP
+* Por que bônus não são “dinheiro grátis”
+* Técnicas psicológicas usadas
+
+---
+
+## 🧩 ARQUITETURA TÉCNICA
+
+### Front-end
+
+* HTML
+* Tailwind CSS
+* Design:
+
+  * Responsivo
+  * Cards interativos
+  * Gráficos simples (CSS)
+
+---
+
+### Backend (Python + Flask)
+
+* Processa simulações
+* Calcula probabilidades
+* Retorna dados pro HTML
+
+---
+
+## 📁 ESTRUTURA REAL DO PROJETO
+
+```
+behind-the-odds/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── templates/
+│   ├── index.html
+│   ├── simulator.html
+│   └── quiz.html
+│
+└── static/
+    ├── css/
+    │   └── tailwind.css
+    └── assets/
+```
+
+---
+
+## 🧪 PRIMEIRO SIMULADOR (MVP)
+
+A gente começa por **1 simulador** bem feito:
+
+### 🎰 Slot Machine Educacional
+
+* Saldo inicial
+* Aposta
+* Botão “girar”
+* Python:
+
+  * Usa probabilidades reais
+  * Mostra perda esperada
+* Texto educativo após cada rodada
+
+> Isso sozinho já vira projeto completo.
+
+---
+
+## 🎨 DESIGN (direção visual)
+
+* Cores: vermelho, preto, cinza (referência cassino)
+* Mas com tom educativo, não chamativo
+* Cards com:
+
+  * Hover
+  * Transições
+  * Feedback visual
+
+---
+
+## 🧠 DIFERENCIAL (isso impressiona)
+
+Em cada simulador:
+
+> “Este algoritmo é semelhante ao usado em cassinos reais”
+
+Isso mostra:
+
+* Consciência técnica
+* Ética
+* Pensamento crítico
+
+---
+
+## 🚀 ROADMAP (organizado)
+
+### Fase 1
+
+* Landing page
+* Simulador de slot
+* Deploy
+
+### Fase 2
+
+* Questionário
+* Roleta
+* Gráficos
+
+### Fase 3
+
+* Texto avançado
+* UX refinado
+* Mobile-first
+
+---
+
+## Próximo passo (escolha 1)
+
+Agora a gente entra no **código**.
+
+Você prefere começar por:
+1️⃣ **Wireframe + conteúdo do index.html**
+2️⃣ **Backend do simulador de slot (Python)**
+3️⃣ **Design base com Tailwind (layout pronto)**
+
+Escolhe **um** que eu já começo a construir contigo, linha por linha 👊
