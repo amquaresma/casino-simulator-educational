@@ -1,4 +1,4 @@
-# Behind the Odds
+# Casino simulator educational
 
 Plataforma educativa de simulação de cassino em PT-BR para demonstrar por que "a casa sempre ganha".
 
